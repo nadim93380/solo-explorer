@@ -1,0 +1,34 @@
+/* banner section responsive start */
+
+@media screen and (max-width: 600px){
+    /* Nav section responsive here */
+
+    /* banner section responsive start */
+    .banner-container{
+        width: 85%;
+        height: 485px;
+        /* border: 2px solid red; */
+    }
+    .banner-text .banner-text-1{
+         font-size: 22px;
+    }
+    .banner-text .banner-text-2{
+        font-size: 14px;
+        margin: 10px auto 15px;
+
+    }
+    .banner-form{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;   
+    }
+    .banner-container .text-input{
+        width: 254px;
+        padding: 16px 166px 16px 15px;
+    }
+    .banner-form{
+        margin: 0 auto;
+        padding: 16px;
+        width: 65%;
+    }
+}
