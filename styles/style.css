@@ -27,6 +27,7 @@
 .nav-logo{
     display: flex;
     gap: 10px;
+    width: 50%;
 }
 .logo-name{
     font-size: 2rem;
@@ -35,6 +36,9 @@
 .nav-anchor a{
     text-decoration: none;
     margin-left: 3rem;
+}
+.nav-anchor{
+    width: 50%;
 }
 
 /* Banner Section Start */
@@ -49,6 +53,10 @@
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/Group\ 13\ \(1\)\ \(1\).png");
     background-size: cover;
 
+}
+.banner-text{
+    width: 70%;
+    margin: 0 auto;
 }
 
 .banner-text-1{
@@ -78,5 +86,45 @@
     justify-content: center;
     gap: 10px;
 
+}
+
+
+/* Banner 2 design start */
+
+.banner-2{
+    max-width: 1170px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-2-text{
+    width: 50%;
+    text-align: left;
+}
+.banner-2-text h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+.banner-2-text ul li{
+    margin-left: 18px ;
+}
+.banner-2-img{
+    width: 40%;
+}
+.margin-t{
+    margin-top: 1.5rem;
+}
+.banner-2-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.btn-2{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 3rem;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 8px;
 }
 
