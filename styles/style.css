@@ -284,4 +284,20 @@ hr{
 .newsletter-img img{
     width: 100%;
     object-fit: cover;
+    position: relative;
+}
+
+.discount{
+    width: 20%;
+    transform: rotate(-19.628deg);
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #FF5400;
+    border: 1px solid red;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
 }

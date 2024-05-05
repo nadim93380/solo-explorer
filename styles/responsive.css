@@ -100,5 +100,12 @@
     main .newsletter-container .newsletter-img{
         width: 100%;
     }
+    .newsletter-container .newsletter-img .discount{
+        width: 40%;
+        font-size: 20px;
+        margin-left: 200px;
+        margin-top: -150px;
+    }
+    
 
 }
