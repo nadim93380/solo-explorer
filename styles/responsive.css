@@ -40,8 +40,9 @@
     }
     .banner-form{
         margin: 0 auto;
+        width: 85%;
         padding: 16px;
-        width: 65%;
+        
     }
 
     /* Banner 2 responsive start */
