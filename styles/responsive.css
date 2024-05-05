@@ -101,10 +101,25 @@
         width: 100%;
     }
     .newsletter-container .newsletter-img .discount{
-        width: 40%;
-        font-size: 20px;
-        margin-left: 200px;
-        margin-top: -150px;
+        width: 50%;
+        font-size: 15px;
+        margin-left: 120px;
+        margin-top: -125px;
+    }
+    /* footer section responsive start */
+    footer .footer-container{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+        border: 2px solid red; 
+        padding: 20px;      
+    }
+    footer .footer-container .footer-social-container{
+        gap: 25px;
+    
+    }
+    footer .footer-container hr{
+        width: 100%;
     }
     
 

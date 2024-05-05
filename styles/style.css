@@ -301,3 +301,37 @@ hr{
     margin-left: 380px;
     margin-top: -150px;
 }
+
+/* Footer design start */
+
+footer{
+    /* height: 502px; */
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+    gap: 25px;
+}
+.footer-logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-container .footer-social-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 2rem;
+
+}
+.footer-container hr{
+    color: #424247;
+    width: 80%;
+}
