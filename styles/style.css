@@ -237,3 +237,51 @@
     font-weight: 800;
     margin: 2rem auto 1rem;
 }
+
+/* Newsletter design start */
+.newsletter-container{
+    max-width: 1170px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.newsletter-form-container{
+    padding-top: 40px;
+}
+.newsletter-container .newsletter-form-container{
+    width: 40%;
+    /* height: 422px; */
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-form-container .newsletter-form-data{
+    width: 80%;
+    margin: 24px auto;
+}
+.newsletter-inp-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.newsletter-inp-container .inp-box{
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    margin-bottom: 24px;
+}
+
+
+.newsletter-container .newsletter-img{
+    width: 60%;
+}
+.newsletter-img img{
+    width: 100%;
+    object-fit: cover;
+}

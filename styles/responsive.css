@@ -89,5 +89,16 @@
         width: 70%;
         margin: 0 auto;
     }
+    /* Newsletter section responsive */
+    .newsletter-container{
+        width: 85%;
+        flex-direction: column;
+    }
+    main .newsletter-container .newsletter-form-container{
+        width: 100%;   
+    }
+    main .newsletter-container .newsletter-img{
+        width: 100%;
+    }
 
 }
