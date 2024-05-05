@@ -98,9 +98,10 @@
         margin: 0 auto;
     }
     /* Newsletter section responsive */
-    .newsletter-container{
+    main .newsletter-container{
         width: 90%;
         flex-direction: column;
+        margin-bottom: 50px;
     }
     main .newsletter-container .newsletter-form-container{
         width: 100%;   
@@ -118,7 +119,7 @@
     footer .footer-container{
         width: 100%;
         margin: 0 auto;
-        padding-top: 50px; 
+        /* padding-top: 30px;  */
         padding: 20px;      
     }
     footer .footer-container .footer-social-container{
