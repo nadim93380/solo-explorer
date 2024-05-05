@@ -56,4 +56,28 @@
     .banner-2 .banner-2-img{
         width: 100%;
     }
+
+    /* Gallery Section Responsive start */
+
+    .gallery-container{
+        width: 85%;
+    
+    }
+
+    .gallery-container .gallery-txt{
+        width: 100%;
+    }
+
+    .gallery-container .gallery-img-container{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        /* grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        border: 2px solid red;*/
+    } 
+    .gallery-container .gallery-img-container img{
+        height: 220px;
+    }
+
 }
