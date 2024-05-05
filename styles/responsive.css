@@ -2,21 +2,29 @@
 @media screen and (max-width: 600px){
     /* Nav section responsive here */
     .nav-container{
-        width: 85%;
+        width: 90%;
     }
-    .nav-logo{
+    .nav-container .nav-logo{
         align-items: center;
+        width: 70%;
     }
     .nav-logo .logo-name{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        width: 70%;
     }
     .nav-anchor{
         display: none;
     }
+    .nav-container .alternative-anchor{
+        display: block;
+        margin-right: 10px;
+    }
+    
+    
 
     /* banner section responsive start */
      main .banner-container{
-        width: 85%;
+        width: 90%;
         height: 485px;
         padding-top: 32px;
         /* border: 2px solid red; */
@@ -47,7 +55,7 @@
 
     /* Banner 2 responsive start */
     .banner-2{
-        width: 85%;
+        width: 90%;
         flex-direction: column;
         gap: 1.5rem;
     }
@@ -61,7 +69,7 @@
     /* Gallery Section Responsive start */
 
     .gallery-container{
-        width: 85%;
+        width: 90%;
     
     }
 
@@ -82,7 +90,7 @@
     }
     /* benefit container responsive */
     .benefit-container{
-        width: 85%;
+        width: 90%;
         margin: 0 auto;
     }
     .benefit-container .benefit-text-container{
@@ -91,7 +99,7 @@
     }
     /* Newsletter section responsive */
     .newsletter-container{
-        width: 85%;
+        width: 90%;
         flex-direction: column;
     }
     main .newsletter-container .newsletter-form-container{
@@ -110,8 +118,7 @@
     footer .footer-container{
         width: 100%;
         margin: 0 auto;
-        padding-top: 50px;
-        border: 2px solid red; 
+        padding-top: 50px; 
         padding: 20px;      
     }
     footer .footer-container .footer-social-container{
