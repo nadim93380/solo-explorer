@@ -80,5 +80,14 @@
     .gallery-container .gallery-img-container img{
         height: 220px;
     }
+    /* benefit container responsive */
+    .benefit-container{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .benefit-container .benefit-text-container{
+        width: 70%;
+        margin: 0 auto;
+    }
 
 }
